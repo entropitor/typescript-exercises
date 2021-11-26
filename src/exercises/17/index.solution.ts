@@ -2,7 +2,7 @@
 // The goal is to infer the return type of the function
 const foo = () => 42
 
-type ReturnTypeOf<T extends (...args: any[]) => any> = T extends (
+export type ReturnTypeOf<T extends (...args: any[]) => any> = T extends (
   ...args: any[]
 ) => infer R
   ? R
