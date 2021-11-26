@@ -9,7 +9,7 @@ type Menu = {
   Sunday: ["Fries and ketchup", "Fries and mayonnaise"]
 }
 
-type TransformMeal<Meal extends string> = any
+export type TransformMeal<Meal extends string> = any
 
 // type StructuredSteak = {
 //   main: "Steak";
