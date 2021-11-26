@@ -238,13 +238,13 @@ export const exerciseStructures: Record<string, FileTree> = {
             readOnly: true
         }
     },
-    17: {
+    21: {
         '/index.ts': {
-            content: require('!!raw-loader!../exercises/17/index.ts').default,
-            solution: require('!!raw-loader!../exercises/17/index.solution.ts').default
+            content: require('!!raw-loader!../exercises/21/index.ts').default,
+            solution: require('!!raw-loader!../exercises/21/index.solution.ts').default
         },
         '/test.ts': {
-            content: require('!!raw-loader!../exercises/17/test.ts').default,
+            content: require('!!raw-loader!../exercises/21/test.ts').default,
             readOnly: true
         },
         ...typeAssertions
