@@ -260,6 +260,17 @@ export const exerciseStructures: Record<string, FileTree> = {
         },
         ...typeAssertions
     },
+    19: {
+        '/index.ts': {
+            content: require('!!raw-loader!../exercises/19/index.ts').default,
+            solution: require('!!raw-loader!../exercises/19/index.solution.ts').default
+        },
+        '/test.ts': {
+            content: require('!!raw-loader!../exercises/19/test.ts').default,
+            readOnly: true
+        },
+        ...typeAssertions
+    },
     21: {
         '/index.ts': {
             content: require('!!raw-loader!../exercises/21/index.ts').default,
